@@ -1,0 +1,9 @@
+[submodule "AcsGE_Window/AcsGE"]
+	path = AcsGE_Window/AcsGE
+	url = git@github.com:AntonioCS/AcsGE.git
+[submodule "AcsGE_Renderer/AcsGE"]
+	path = AcsGE_Renderer/AcsGE
+	url = git@github.com:AntonioCS/AcsGE.git
+[submodule "AcsGE_Animation/AcsGE"]
+	path = AcsGE_Animation/AcsGE
+	url = git@github.com:AntonioCS/AcsGE.git
