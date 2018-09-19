@@ -18,6 +18,54 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="AcsGE\.git" />
+    <None Include="AcsGE\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AcsGE\Animation.cpp" />
+    <ClCompile Include="AcsGE\ECS\Components\ColisionComponent.cpp" />
+    <ClCompile Include="AcsGE\ECS\Components\PositionComponent.cpp" />
+    <ClCompile Include="AcsGE\ECS\Components\RenderableComponent.cpp" />
+    <ClCompile Include="AcsGE\ECS\Components\SpriteComponent.cpp" />
+    <ClCompile Include="AcsGE\ECS\EntityManager.cpp" />
+    <ClCompile Include="AcsGE\ECS\Systems\ColisionSystem.cpp" />
+    <ClCompile Include="AcsGE\ECS\Systems\RendererSystem.cpp" />
+    <ClCompile Include="AcsGE\EventManager.cpp" />
+    <ClCompile Include="AcsGE\Messages.cpp" />
+    <ClCompile Include="AcsGE\Renderer.cpp" />
+    <ClCompile Include="AcsGE\Sprite.cpp" />
+    <ClCompile Include="AcsGE\Texture.cpp" />
+    <ClCompile Include="AcsGE\Util\ColorList.cpp" />
+    <ClCompile Include="AcsGE\Util\Timer.cpp" />
+    <ClCompile Include="AcsGE\Util\Vector2D.cpp" />
+    <ClCompile Include="AcsGE\Window.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AcsGE\Animation.h" />
+    <ClInclude Include="AcsGE\ECS\Component.h" />
+    <ClInclude Include="AcsGE\ECS\Components\ColisionComponent.h" />
+    <ClInclude Include="AcsGE\ECS\Components\PositionComponent.h" />
+    <ClInclude Include="AcsGE\ECS\Components\RenderableComponent.h" />
+    <ClInclude Include="AcsGE\ECS\Components\SpriteComponent.h" />
+    <ClInclude Include="AcsGE\ECS\Entity.h" />
+    <ClInclude Include="AcsGE\ECS\EntityManager.h" />
+    <ClInclude Include="AcsGE\ECS\System.h" />
+    <ClInclude Include="AcsGE\ECS\Systems\ColisionSystem.h" />
+    <ClInclude Include="AcsGE\ECS\Systems\RendererSystem.h" />
+    <ClInclude Include="AcsGE\EventManager.h" />
+    <ClInclude Include="AcsGE\Messages.h" />
+    <ClInclude Include="AcsGE\Renderer.h" />
+    <ClInclude Include="AcsGE\Sprite.h" />
+    <ClInclude Include="AcsGE\Texture.h" />
+    <ClInclude Include="AcsGE\Util\ColorList.h" />
+    <ClInclude Include="AcsGE\Util\Mediator.h" />
+    <ClInclude Include="AcsGE\Util\SDL_io.h" />
+    <ClInclude Include="AcsGE\Util\Timer.h" />
+    <ClInclude Include="AcsGE\Util\Vector2D.h" />
+    <ClInclude Include="AcsGE\Window.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{19f054fc-bbba-484a-bd02-9540e1dee02e}</ProjectGuid>
