@@ -7,3 +7,6 @@
 [submodule "AcsGE_Animation/AcsGE"]
 	path = AcsGE_Animation/AcsGE
 	url = git@github.com:AntonioCS/AcsGE.git
+[submodule "AcsGE_Physics/AcsGE"]
+	path = AcsGE_Physics/AcsGE
+	url = git@github.com:AntonioCS/AcsGE.git
