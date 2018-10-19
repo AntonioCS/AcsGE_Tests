@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AcsGE_Animation", "AcsGE_An
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AcsGE_Physics", "AcsGE_Physics\AcsGE_Physics.vcxproj", "{CE43089C-E804-49FC-9008-5C5AD072EA2F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AcsGE_ECS", "AcsGE_ECS\AcsGE_ECS.vcxproj", "{24B3FF36-49A0-47C3-AFC0-78D8FDBA4A75}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{CE43089C-E804-49FC-9008-5C5AD072EA2F}.Release|x64.Build.0 = Release|x64
 		{CE43089C-E804-49FC-9008-5C5AD072EA2F}.Release|x86.ActiveCfg = Release|Win32
 		{CE43089C-E804-49FC-9008-5C5AD072EA2F}.Release|x86.Build.0 = Release|Win32
+		{24B3FF36-49A0-47C3-AFC0-78D8FDBA4A75}.Debug|x64.ActiveCfg = Debug|x64
+		{24B3FF36-49A0-47C3-AFC0-78D8FDBA4A75}.Debug|x64.Build.0 = Debug|x64
+		{24B3FF36-49A0-47C3-AFC0-78D8FDBA4A75}.Debug|x86.ActiveCfg = Debug|Win32
+		{24B3FF36-49A0-47C3-AFC0-78D8FDBA4A75}.Debug|x86.Build.0 = Debug|Win32
+		{24B3FF36-49A0-47C3-AFC0-78D8FDBA4A75}.Release|x64.ActiveCfg = Release|x64
+		{24B3FF36-49A0-47C3-AFC0-78D8FDBA4A75}.Release|x64.Build.0 = Release|x64
+		{24B3FF36-49A0-47C3-AFC0-78D8FDBA4A75}.Release|x86.ActiveCfg = Release|Win32
+		{24B3FF36-49A0-47C3-AFC0-78D8FDBA4A75}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
